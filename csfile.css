@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Concert+One&display=swap');
+
+body {
+    opacity:0;
+    background: white;
+}
+
+body.fade {
+    opacity: 1;
+    
+}
+
+
+#content {
+	max-width: 300px;
+	margin: auto;
+  	background: white;
+  	padding: 10px;
+  	text-align: center;
+}
+
+
+.myButton1,.myButton2, .myButton,.myButton3 {
+	width: 50px;
+	height: 50px;
+	margin: 10px 10px 10px 10px;
+	font-size: 20px;
+	font-family: 'Concert One';
+	color: white;
+	border-color:black;
+	border-width: 2px; 
+	background: #7406f9;
+	border-radius:10px;
+	&:not(.disable):hover {
+    	
+		background: #7406f9;
+  	}
+}
+
+/*#num1:disabled, #num2:disabled, #num3:disabled, #num4:disabled {
+	background: #3AC823;
+	color:white;
+
+}*/
+
+.myButton2, .myButton3 {
+	width: 124px !important;
+}
+
+/*
+.myButton1, .myButton2  {
+	height: 50px;
+	margin: 10px 10px 10px 10px;
+	font-size: 20px;
+	font-family: 'Concert One';
+	color: white;
+	border: none;
+	background: #7406f9;
+	&:not(.disable):hover {
+    	
+		background: #7406f9;
+  	}
+
+.myButton1 {
+	width: 50px;
+}
+
+.myButton2 {
+	width: 124px;
+}
+*/
+
+/*
+.myButton {
+	width: 50px;
+	height: 50px;
+	margin: 10px 10px 10px 10px;
+	font-size: 20px;
+	font-family: 'Concert One';
+	color: white;
+	border: none;
+	background: #7406f9;
+	&:not(.disable):hover {
+    	
+		background: #7406f9;
+  	}
+
+}
+*/
+
+/*
+.myButton1 {
+	width: 50px;
+	height: 50px;
+	margin: 10px 10px 10px 10px;
+	font-size: 20px;
+	font-family: 'Concert One';
+	color: white;
+	background: #7406f9;
+	&:not(.disable):hover {
+    	
+		background: #7406f9;
+  	}
+
+}
+
+.myButton2 {
+	width: 124px;
+	height: 50px;
+	margin: 10px 10px 10px 10px;
+	font-size: 20px;
+	font-family: 'Concert One';
+	color: white;
+	background: #7406f9;
+	&:not(.disable):hover {
+    	
+		background: #7406f9;
+  	}
+}
+*/
+/*
+.myButton3 {
+	width: 124px;
+	height: 50px;
+	margin: 10px 10px 10px 10px;
+	font-size: 20px;
+	font-family: 'Concert One';
+	color: white;
+	background: #7406f9;
+	&:not(.disable):hover {
+    	
+		background: #7406f9;
+  	}
+}
+*/
+
+
+h1 {
+	margin: auto;
+	padding: 10px;
+	font-family: 'Concert One';
+	font-size: 40px;
+	color: #7406f9;
+}
+
+#result {
+	width: 345px;
+	height: 30px;
+	font-size: 20px;
+	margin-left: 10px;
+
+	
+}
+
+#container {
+	width : 300px;
+	heigth: 300px;
+}
+
+.popup{
+	display: none;
+	position: fixed;
+
+}
+
+.popup-container{
+	max-width: 100px;
+	padding:10px;
+}
+
+.popup-box{
+	width:50px;
+	height:50px;
+	padding:10px;
+
+}
+
+.popup-button{
+	width:124px;
+	padding:10px;
+}
